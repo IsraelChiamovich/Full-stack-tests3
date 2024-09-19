@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #08446e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    margin-top: 80px;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+}
+
+.my-team {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f0f0f0;
+    margin-bottom: 20px;
+}
+
+.my-player {
+    background-color: #e2dfdf;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin: 0 10px;
+}
+
+.my-player h3 {
+    margin: 0;
+}
+
+.search-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+select, button {
+    padding: 10px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+
+button {
+    background-color: #08446e;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: #005fa3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    table-layout: fixed; 
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd; 
+}
+
+table th {
+    background-color: red;
+    color: white;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+.range-container {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+    margin-bottom: 40px; 
+}
+
+.range-output {
+    width: 50px; 
+    text-align: center;
+    padding: 5px;
+    background-color: #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input[type="range"] {
+    flex: 1;
+    padding: 0;
+}
